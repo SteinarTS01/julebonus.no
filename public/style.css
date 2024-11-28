@@ -1,0 +1,86 @@
+/* public/style.css */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html, body {
+    height: 100%;
+  }
+  
+  body {
+    background-image: url('images/bakgrunn.png');
+    background-size: cover;
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "MORF" 15,
+      "SHLN" 50;
+  }
+  
+  
+  
+  h2 {
+    font-size: 40px;
+  }
+  
+  .carousel-container {
+    width: 1200px;
+    overflow: hidden;
+    margin: auto;
+  }
+  
+  .carousel {
+    display: flex;
+    transition: transform 3s ease-in-out;
+  }
+  
+  .carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .carousel-item img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto;
+  }
+  
+  button {
+    display: block;
+    margin: 100px auto;
+    padding: 300px 300px;
+    cursor: pointer;
+    opacity: 0;
+  }
+  .hidden {
+    display: none;
+  }
+  #history {
+    margin-top: 20px;
+    padding: 20px;
+    border-top: 2px solid #ccc;
+    text-align: center;
+  }
+  
+  #history-container {
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Create responsive columns */
+    gap: 10px; /* Add space between images */
+    justify-items: center; /* Center items in the grid */
+  }
+  
+  #history-container .carousel-item {
+    width: 100px; /* Set a fixed width */
+    height: 100px; /* Set a fixed height to make a square */
+    overflow: hidden; /* Ensure no overflow */
+  }
+  
+  #history-container img {
+    width: 100%; /* Make sure images scale to fit the container */
+    height: 100%; /* Scale height to fit the container */
+    object-fit: cover; /* Ensure the images keep their aspect ratio and fill the box */
+  }
