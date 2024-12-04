@@ -11,6 +11,9 @@
   body {
     background-image: url('images/bakgrunn.jpg');
     background-size: cover;
+  }
+  
+  .font {
     font-family: "Honk", system-ui;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -19,8 +22,6 @@
       "MORF" 15,
       "SHLN" 50;
   }
-  
-  
   
   h2 {
     font-size: 40px;
@@ -83,4 +84,18 @@
     width: 100%; /* Make sure images scale to fit the container */
     height: 100%; /* Scale height to fit the container */
     object-fit: cover; /* Ensure the images keep their aspect ratio and fill the box */
+  }
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  .footer a {
+    color: #20d8d8;
+    text-decoration: none;
   }
