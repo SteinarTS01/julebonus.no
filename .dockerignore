@@ -1,0 +1,36 @@
+# Node.js dependencies
+node_modules
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# dotenv environment variable files
+.env
+.env.*
+
+# Parcel cache
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+
+# Temporary folders
+tmp/
+temp/
