@@ -1,9 +1,13 @@
 /* public/style.css */
+@media screen and (max-width: 768px) {
+  button {
+    margin: 0px !important;
+  }
+}
 * {
     margin: 0;
     padding: 0;
   }
-  
   html, body {
     height: 100%;
   }
@@ -63,7 +67,6 @@
   #history {
     margin-top: 20px;
     padding: 20px;
-    border-top: 2px solid #ccc;
     text-align: center;
   }
   
